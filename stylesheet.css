@@ -1,25 +1,36 @@
-.head_bar {
-    width:98%;
-    height:100px;
-    background: #87b4eb;
-    color:white;
-    font-size:25px;
-    font-family: serif;
-    position: absolute;
+/* Ubuntu, Ubuntu */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
-h3 {
-   font-family: serif;
-    color: #87b4eb;
-    font-size: 25px;
-    padding-top: 1%;
+a,
+a:hover {
+  color: #a00;
+  text-decoration: none;
 }
 
-li {
-    color: #666666;
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
 }
 
-ul {
-    padding-top: -1%;
-    list-style-type: circle
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
 }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
